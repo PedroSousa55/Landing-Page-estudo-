@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap");
+:root {
+  --primary-color: #0a1128;
+  --white-color: #fff;
+  --gap: 3rem;
+  --light-gray-color: #eeeeee;
+  --secondary-color: crimson;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: var(--primary-color);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 6rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 5rem;
+}
+
+h4 {
+  font-size: 4.5rem;
+}
+
+h5 {
+  font-size: 4rem;
+}
+
+h6 {
+  font-size: 3.5rem;
+}
+p {
+  margin-bottom: 3rem;
+}
+a {
+  text-decoration: none;
+}
+
+.responsive-table {
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+table {
+  min-width: 360px;
+  width: 100%;
+  border-collapse: collapse;
+  text-transform: capitalize;
+}
+table caption {
+  text-align: left;
+  font-style: italic;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+table td,
+table th {
+  padding: 1rem;
+  border: 0.1rem solid var(--light-gray-color);
+  text-align: left;
+}
+
+tfoot td,
+thead th {
+  background: var(--light-gray-color);
+}
+.main-bg {
+  background-image: url(../images/main-bg.svg);
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+.white-bg {
+  background: var(--white-color);
+  color: var(--primary-color);
+}
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 10rem var(--gap);
+}
+.section {
+  min-height: 100vh;
+}
+
+.menu-space {
+  height: 65px;
+}
